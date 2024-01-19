@@ -1,0 +1,39 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #47398d !important;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+#play a{
+  font-size: 25px;
+  font-weight: 600;
+  padding: 20px 100px;
+  color: white;
+  text-decoration: none;
+}
+
+#play{
+  height: 50px;
+  background-color: #0ab306;
+  border-radius: 40px;
+  box-shadow: 1px 4px 5px black;
+}
+
+#play:hover {
+  cursor: pointer;
+}
+
+#play:active {
+  box-shadow: none;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
